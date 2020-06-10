@@ -1,0 +1,78 @@
+<html>
+	<head>
+	<title>welcome1</title>
+	<style>
+	*{
+		margin : 20px;                        <!-- *은 전체다!-->
+	}
+	pre{ 
+		font-size : 20px;
+		background : lightblue;
+		border : 5px double red;                    */   전부다 하고싶을때 그냥 보더를 쓴다 -->/*
+		padding : 30px;		*/안쪽여백 --> /*
+		border-left :10px solid blue;
+		
+		/*  
+		border-left-width : 10px;
+		border-left-style : solid;
+		border-left-color : blue;
+		*/
+	}
+	
+	
+	img{
+		width : 400px;
+		height : 300px;
+		/*border : 5px dotted red;
+			border : 5px dashed red;
+			border : 20px inset red;
+			border : 20px outset red;*/
+			border-style :double solid;
+		
+	}
+	
+	em{
+		color : red;
+		pont-weight : bold;   
+		font-size   : 20px;
+		border : 3px solid orange;   <!-- 자기영역만 간다.  인라인 요소가 오면? 자기영역까지.-->
+	}
+	
+	h1,h2, p{
+		border : 3px solid green;  <!-- 블럭요소까지 간다 -->
+		width : 60%; <!-- 한화면 100% -->
+		height : 80px;
+	}
+	p{
+	height : 50px;
+	}
+	</style>  <!-- 태그가 없는건 줄수가없다 -->
+	</head>
+	
+	<body>
+<pre>
+pre태그 : 
+입력한 모양 글대로 출력
+주로 설명하고자 할때 사용   <!-- 어머 신기해!-->
+
+h1~h6태그  : 내용의 제목을 부여할때    , 자동으로 줄이 바뀜
+이미지 표시 :  &lt;img src=="./images/아메리카노.jpg"&gt;  <!-- 설명하기 위한 용도에서 -->
+
+태그를 설명의 용도로 표시할때 : &amp 특수문자를 이용 
+
+&lt;p&gt; : 작은 단락, 문단을 표시한다.
+			:자동으로 줄이 바뀜, 앞뒤에 여백이 생김
+&lt;em&gt; : 기울임꼴, 강조
+		</pre>
+안녕하세요   <br>
+	<h1>Welcome To the  &nbsp; &nbsp; &nbsp; &nbsp;Web Prgramming !!!   </h1>      <!-- pre에서는 하나도 표시안되네??-->
+	<img src="./images/아메리카노.jpg"> <br>
+	<p>언제든지 오셔서 질문이 있으면 올려주세요</p>                     <!-- 이러면 스타일을 줄수 있어요-->
+	<em>여러분을 환영합니다.~ </em>
+	<h2>내용</h2>
+	HTML, CSS, JavaScript, Jquery, Java, Oracle
+
+	</body>
+
+</html>
+	
